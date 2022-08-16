@@ -13,11 +13,11 @@ arrayHandler.getSum = (arr) => {
 }
 
 arrayHandler.getMax = (arr) => {
-    return arr.reduce((acc, curr) => acc = acc < curr ? curr : acc, a[0]);
+    return arr.reduce((acc, curr) => acc = acc < curr ? curr : acc, arr[0]);
 }
 
 arrayHandler.getMin = (arr) => {
-    return arr.reduce((acc, curr) => acc = acc > curr ? curr : acc, a[0]);
+    return arr.reduce((acc, curr) => acc = acc > curr ? curr : acc, arr[0]);
 
 }
 
